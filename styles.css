@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: seashell;
+}
+
+body {
+    background-color: black;
+    font-size: 22px;
+}
+
+.header-navigation {
+    display: flex;
+   
+    align-items: center;
+    
+}
+
+
+/* NAV of Studio, Portfolio and Content */
+
+.header-container {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    
+}
+
+.header-list {
+    display: inline-flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+
+.header-item {
+    text-decoration: underline;
+    list-style: none;
+}
+
+#logo {
+    height: 50px
+}
+
+/* Hero Section */
+
+.hero-container {
+    background-image:  url("./images/img-mission-background.webp");
+    width: 1200px;
+    height: 700px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#hero-background {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    width: 100%;
+}
+
+.hero-section { 
+    background-image: linear-gradient(
+        to right, 
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), 
+    url("../images/bg-people-office.png");
+  
+    align-items: center;
+    padding: 188px 0 188px 0;
+    text-align: center;
+}
+
+
